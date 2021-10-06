@@ -8,10 +8,6 @@ require('../db/conn');
 const User = require("../model/userSchema");
 const { Router } = require("express");
 
-router.get("/", (req, res) => {
-    res.send("<h1>This is MERN Stack Home Page in auth.js</h1>");
-});
-
 // Using Promises.
 // router.post('/register', (req, res) => {
 
